@@ -10,7 +10,7 @@
             "name": "Launch Program",
             "preLaunchTask": "prestart",
             "program": "${file}",
-            "outFiles": ["index.js"]
+            "outFiles": [ "${workspaceRoot}/build/**/*.js" ]
         },
         {
             "type": "node",
