@@ -6,6 +6,8 @@ import { bye } from './feeeky';
  * @return the value that should be returned
  */
 async function say(message: string, strong: boolean = false): Promise<boolean> {
-    console.log('Hello World');
-    return true ;
+    console.log(bye(message));
+    return true;
 }
+
+say('Alex');
