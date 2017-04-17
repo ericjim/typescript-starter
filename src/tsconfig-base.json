@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "target": "es2016",
+        "noEmitOnError": true,
+        "alwaysStrict": true,
+        "importHelpers": true,
+        "lib": [
+            "es2015"
+        ]
+    }
+}
